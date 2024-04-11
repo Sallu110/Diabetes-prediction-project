@@ -1,9 +1,7 @@
-# Diabetes-prediction-project by deep learning 
+# DIABETES PREDICTION PROJECT BY DEEP LEARNING  
 In this project i have predicted diabetes on the basis various factors 
 
-
 # implement neural net using keras sequential model 
-
 # predict the onset of diabetes for the pima indians based on the available diagnostic data.
 
 import pandas as pd 
