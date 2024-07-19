@@ -48,12 +48,36 @@ Evaluate the Model: Evaluate the model's performance on the test set:
 accuracy_test = model.evaluate(X_test, Y_test)
 Confusion Matrix: Optionally, analyze model predictions using a confusion matrix for further insights:
 
+![Screenshot 2024-07-18 171648](https://github.com/user-attachments/assets/faac5459-af75-45cd-adb5-b5288a29e895)
+
 y_pred_prob = model.predict(X_test)
 predictions = (y_pred_prob > 0.5).astype('int32')
+![Screenshot 2024-07-18 171752](https://github.com/user-attachments/assets/a4c806ee-2a52-42bc-81a4-a973dddd645e)
+![Screenshot 2024-07-18 171831](https://github.com/user-attachments/assets/1df1af58-4a2f-4be3-bd3e-c534589091c8)
+![Screenshot 2024-07-18 171859](https://github.com/user-attachments/assets/49a1d76a-3373-429e-9958-c0504129d897)
+![Screenshot 2024-07-18 171953](https://github.com/user-attachments/assets/cf3164cf-f129-4491-8870-272f9a9c31bb)
+
+
+
 # from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(Y_test, predictions)
+
+![Screenshot 2024-07-18 171237](https://github.com/user-attachments/assets/f6632f1f-a7da-4cab-9fd9-de311a45651e)
+
+
 # Conclusion
-This project demonstrates the implementation of a neural network using Keras Sequential model to predict diabetes onset based on diagnostic data of the Pima Indians. The model's performance is evaluated using accuracy metrics and confusion matrix analysis.
+This project demonstrates the implementation of a neural network using Keras Sequential model to predict diabetes onset based on diagnostic data of the Pima 
+Indians. The model's performance is evaluated using accuracy metrics and confusion matrix analysis.
+
+
+
+
+
+
+
+
+
+
 
 
              
