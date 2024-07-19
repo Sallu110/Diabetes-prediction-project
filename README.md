@@ -52,9 +52,13 @@ Confusion Matrix: Optionally, analyze model predictions using a confusion matrix
 
 y_pred_prob = model.predict(X_test)
 predictions = (y_pred_prob > 0.5).astype('int32')
+
 ![Screenshot 2024-07-18 171752](https://github.com/user-attachments/assets/a4c806ee-2a52-42bc-81a4-a973dddd645e)
+
 ![Screenshot 2024-07-18 171831](https://github.com/user-attachments/assets/1df1af58-4a2f-4be3-bd3e-c534589091c8)
+
 ![Screenshot 2024-07-18 171859](https://github.com/user-attachments/assets/49a1d76a-3373-429e-9958-c0504129d897)
+
 ![Screenshot 2024-07-18 171953](https://github.com/user-attachments/assets/cf3164cf-f129-4491-8870-272f9a9c31bb)
 
 
