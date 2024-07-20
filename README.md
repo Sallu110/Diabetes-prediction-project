@@ -2,7 +2,7 @@
 # Diabetes Prediction using Neural Network (Keras Sequential Model)
 This project focuses on predicting the onset of diabetes for the Pima Indians based on available diagnostic data using a neural network implemented with Keras Sequential model.
 
-# steps of project 
+# "steps of project" 
 Introduction
 Data Preprocessing
 Model Training
