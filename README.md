@@ -4,13 +4,18 @@ This project focuses on predicting the onset of diabetes for the Pima Indians ba
 
 ## Steps of project
 1. Introduction
-2. Data Preprocessing
-3. Model Training
-4. Evaluation
-5. Conclusion
+2. Dataset 
+3. Data Preprocessing
+4. Model Training
+5. Evaluation
+6. Conclusion
 
 ### Introduction
 In this project, we implement a neural network using the Keras Sequential model to predict whether a person is likely to develop diabetes based on diagnostic features such as glucose level, blood pressure, BMI, etc.
+
+### Dataset 
+
+![Screenshot 2024-08-11 103238](https://github.com/user-attachments/assets/ada879cb-6ffa-4fc7-b5af-b6e7f1f8aa4d)
 
 ### Data Preprocessing
 Import Libraries: Import pandas for data handling and TensorFlow for deep learning:
